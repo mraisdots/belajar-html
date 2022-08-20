@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <!-- element form yang sering digunakan
+        input
+        textarea
+        select
+        button
+        label
+     -->
+     <h3>Form</h3>
+
+     <form>
+         <label for="username">Username : </label>
+         <input type="text" id="username">
+         <br>
+         <label for="password">Password : </label>
+         <input type="password" id="password">
+         <br>
+         <input type="radio" id="pria" name="jeniskelamin"><label for="pria">Pria</label>
+         <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">Wanita</label>
+         <br>
+         <input type="checkbox" id="olahraga"><label for="olahraga"> Olahraga</label>
+         <input type="checkbox" id="menyanyi"><label for="menyanyi"> Menyanyi</label>
+         <input type="checkbox" id="ngoding"><label for="ngoding"> Ngoding</label>
+         <br>
+         <textarea></textarea>
+         <br>
+         <select>
+            <option>Makassar</option>
+            <option>Jakarta</option>
+         </select>
+         <!-- button, atribut (submit, reset & button) -->
+         <button type="submit">Kirim!</button>
+     </form>
+
+     <h3>Latihan</h3>
+     <form action="">
+        <table>
+            <tr>
+                <td><label for="username">Username: </label></td>
+                <td><input type="text" id="username"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password: </label></td>
+                <td><input type="password" id="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="radio" id="pria" name="jeniskelamin"><label for="pria">Pria</label>
+                    <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">Wanita</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" id="olahraga"><label for="olahraga"> Olahraga</label>
+                    <input type="checkbox" id="menyanyi"><label for="menyanyi"> Menyanyi</label>
+                    <input type="checkbox" id="ngoding"><label for="ngoding"> Ngoding</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="kota">Kota:</label></td>
+                <td>
+                    <select>
+                        <option>Makassar</option>
+                        <option>Jakarta</option>
+                        <option>Bandung</option>
+                     </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="komentar">Komentar</label></td>
+                <td>
+                    <textarea></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Kirim</button>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Untuk lebih lanjut silahkan kunjungi w3school tag form html -->
+     </form>
+
+
+
+</body>
+</html>
